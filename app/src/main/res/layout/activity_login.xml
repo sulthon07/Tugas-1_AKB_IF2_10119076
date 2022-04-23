@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    //Nama : Sulthon Naufal Akmal-->
+<!--    //Kelas : IF2-->
+<!--    //NIM : 10119076-->
+<!--    //TGL PENGERJAAN : 23 APRIL 2022-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity= "center">
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/registrasi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Registrasi" />
+    </LinearLayout>
+</RelativeLayout>

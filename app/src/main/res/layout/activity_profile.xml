@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    //Nama : Sulthon Naufal Akmal-->
+<!--    //Kelas : IF2-->
+<!--    //NIM : 10119076-->
+<!--    //TGL PENGERJAAN : 23 APRIL 2022-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:gravity= "center">
+
+
+    //tidak menggunakan foto karena jika mengunakan foto akan has stopped
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NIM : 10119076" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama : Sulthon Naufal Akmal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi
+        Lahir di bandung tanggal 7 juli 2001,berkuliah di unikom,bercita cita ingin sukses" />
+
+</LinearLayout>
